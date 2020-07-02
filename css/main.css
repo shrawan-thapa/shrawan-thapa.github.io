@@ -18,7 +18,11 @@ a {
     color: #999;
 }
 a:hover {
-    text-decoration: underline;
+    text-decoration: unde;
+}
+a.project_list {
+    font-size: 1.5em;
+    color: teal;
 }
 h1 {
     font-size: 3em;
@@ -27,7 +31,15 @@ h1 {
 h2 {
     font-size: 2em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    color: rgb(54, 56, 56);
 }
+
+h3 {
+    font-size: 1.5em;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    color: rgb(54, 56, 56);
+}
+
 p {
     font-size: 1.5em;
     line-height: 1.4em;
@@ -58,4 +70,23 @@ ul.posts li {
     width: 100%;
     height: auto;
     margin-top: -50px;
+  }
+
+  .card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    margin-block-end: 10px;
+    padding-bottom: 10px;
+    
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  /* Add some padding inside the card container */
+  .container {
+    padding: 2px 16px;
   }
