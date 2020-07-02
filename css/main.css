@@ -22,7 +22,7 @@ a {
     color: #999;
 }
 a:hover {
-    text-decoration: unde;
+    text-decoration: underline;
 }
 a.project_list {
     font-size: 1.25em;
