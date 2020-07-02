@@ -9,8 +9,9 @@ nav ul, footer ul {
     font-weight: bold;
 }
 nav ul li, footer ul li {
-    display: inline;
+    display: inline-block;
     margin-right: 20px;
+    margin-bottom: 10px;
 }
 a {
     text-decoration: none;
@@ -45,3 +46,16 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
+.circular--portrait {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+  }
+  
+  .circular--portrait img {
+    width: 100%;
+    height: auto;
+    margin-top: -50px;
+  }
