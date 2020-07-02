@@ -12,6 +12,10 @@ nav ul li, footer ul li {
     display: inline-block;
     margin-right: 20px;
     margin-bottom: 10px;
+    text-align: right;
+}
+nav img{
+    padding-left: 10px;
 }
 a {
     text-decoration: none;
